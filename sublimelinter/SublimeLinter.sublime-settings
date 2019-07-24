@@ -1,0 +1,63 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "eslint":
+    {
+      "@disable": false,
+      "args":
+      [
+        "--config",
+        "C:/cygwin64/home/xxxxx/lint/.eslintrc.json",
+      ],
+      "excludes": []
+    },
+    "puglint":
+    {
+      "@disable": false,
+      "args":
+      [
+        "--config",
+        "C:/cygwin64/home/xxxxx/.pug-lintrc"
+      ],
+      "excludes": [],
+      "styles": [
+        {
+          "codes": [""]
+        }
+      ]
+    }
+  },
+  "paths": {
+      "linux": [],
+      "osx": [],
+      "windows": []
+  },
+  "styles": [
+    {
+      "mark_style": "outline",
+      "priority": 1,
+      "scope": "region.purplish markup.changed.sublime_linter markup.warning.sublime_linter",
+      "icon": "warning",
+      "types": [
+          "warning"
+      ]
+
+    },
+    {
+      "mark_style": "outline",
+      "priority": 1,
+      "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+      "icon": "error",
+      "types": [
+          "error"
+      ]
+    }
+
+
+  ],
+  "syntax_map": {
+    "pug": "pug"
+  },
+  "debug": false
+
+}
